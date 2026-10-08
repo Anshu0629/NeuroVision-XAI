@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & model weights
+data/
+*.pt
+*.pth
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
